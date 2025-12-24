@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Stylesheet" href="index.css">
+    </head>
+    <body>
+         <div id="container1">
+         <div class="sub-container1">
+         <img id="logo1" src="/images/los_angeles_logo.png">
+         <h1 class="text_styling">Los Angeles Lakers</h1>
+         </div>
+         <p id="hyphen_char"> - </p>
+         <div class="sub-container1">
+        <h1 class="text_styling">Golden State Warriors</h1>
+         <img id="logo2" src="/images/golden_state_logo.png">
+         </div>
+         </div>
+         <div id="container2">
+         <p class="score" id="score_elem1"> 0 </p>
+         <p id="hyphen_char1"> - </p>
+         <p class="score" id="score_elem2"> 0 </p>
+        </div>
+         <div id="container3">
+         <div id="sub-container2">
+         <button class="btn" onclick="A_add1()"> +1 </button>
+         <button class="btn" onclick="A_add2()"> +2 </button>
+         <button class="btn" onclick="A_add3()"> +3 </button>
+         <button class="btn" onclick="reset_score1()"> RESET </button>
+         </div>
+         <div id="sub-container2">
+         <button class="btn" onclick="B_add1()"> +1 </button>
+         <button class="btn" onclick="B_add2()"> +2 </button>
+         <button class="btn" onclick="B_add3()"> +3 </button>
+         <button class="btn" onclick="reset_score2()"> RESET </button>
+         </div>
+         </div>
+         <button class="btn"  onclick="newgame()"> NEW GAME</button>
+         <script src="index.js"></script>
+    </body>
+</html>
